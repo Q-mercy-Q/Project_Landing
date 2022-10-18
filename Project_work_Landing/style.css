@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Abel', sans-serif;
+}
+
+header {
+  padding-left: 20vw;
+  padding-right: 20vw;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_section {
+  display: flex;
+  align-items: center;
+}
+
+.header_item a {
+  padding: 45px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.header_item a:hover{
+    color: #076CF0;
+}
