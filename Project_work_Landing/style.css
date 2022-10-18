@@ -2,18 +2,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Abel', sans-serif;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
 header {
   padding-left: 20vw;
   padding-right: 20vw;
-  background: #000;
+  background: #06090E;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
 
-.header_section {
+header img{
+  margin-top: 20px;
+}
+
+nav{
+  margin-top: 40px;
+}
+
+ .header_section {
+  font-family: "Abel", sans-serif;
   display: flex;
   align-items: center;
 }
@@ -26,6 +42,35 @@ header {
   line-height: 23px;
 }
 
-.header_item a:hover{
-    color: #076CF0;
+.header_item{
+  display:inline-block;
+}
+
+.header_item a:hover {
+  color: #076cf0;
+} 
+
+
+.home {
+  font-family: "Rubik", sans-serif;
+  padding-left: 20vw;
+  background-image: url(img/home-slider-bg.png);
+  background-repeat: no-repeat;
+  height: 876px;
+  width: 100vw;
+}
+
+.home h1 {
+  color: #ffffff;
+  font-size: 80px;
+  line-height: 95px;
+  padding-top: 168px;
+  font-weight: 500;
+}
+
+.home h2 {
+  font-size: 30px;
+  line-height: 22px;
+  color: #868686;
+  margin-top: 10px;
 }
